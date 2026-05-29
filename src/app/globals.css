@@ -610,9 +610,27 @@ img {
 /* RESPONSIVE */
 /* ───────────────────────────────── */
 
+/* LOGO IMAGE */
+.logo-image {
+  height: 85px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.logo-image:hover {
+  transform: scale(1.03);
+}
+
+/* MOBILE RESPONSIVE */
 @media (max-width: 900px) {
   .topbar {
     padding: 14px 5%;
+  }
+
+  .logo-image {
+    height: 55px;
   }
 
   .nav-links {
@@ -626,7 +644,6 @@ img {
   .showcase-section,
   .showcase-section.reverse {
     flex-direction: column;
-
     padding: 90px 5%;
   }
 
@@ -647,7 +664,6 @@ img {
     font-size: 18px;
   }
 }
-
 
 
 /* ───────────────────────────────── */

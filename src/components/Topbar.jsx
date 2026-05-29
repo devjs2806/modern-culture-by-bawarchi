@@ -1,24 +1,16 @@
 export default function Topbar() {
   return (
     <header className="topbar">
-      {/* LEFT BRAND */}
+      {/* LOGO */}
       <div className="brand">
-        <span className="brand-mark">
-          MC
-        </span>
-
-        <div>
-          <h1>
-            Modern Culture
-          </h1>
-
-          <p>
-            By Bawarchi
-          </p>
-        </div>
+        <img
+          src="/images/logo.png"
+          alt="Modern Culture By Bawarchi"
+          className="logo-image"
+        />
       </div>
 
-      {/* CENTER NAVIGATION */}
+      {/* NAVIGATION */}
       <nav className="nav-links">
         <a href="#home">Home</a>
 
@@ -43,7 +35,7 @@ export default function Topbar() {
         </a>
       </nav>
 
-      {/* RIGHT CTA */}
+      {/* RESERVE BUTTON */}
       <a
         className="reserve-btn"
         href="#contact"
