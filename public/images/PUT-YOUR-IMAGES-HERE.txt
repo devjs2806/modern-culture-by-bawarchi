@@ -1,8 +1,0 @@
-Place your images in this folder and rename them exactly:
-
-hero.jpg
-exterior.jpg
-entrance.jpg
-interior.jpg
-
-The website is designed to use these image paths automatically.
