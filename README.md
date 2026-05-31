@@ -1,4 +1,4 @@
-# Royal Haven — Luxury Restaurant Website
+#  Restaurant Website
 
 A modern, elegant, luxury restaurant homepage made with JavaScript and JSX.
 
