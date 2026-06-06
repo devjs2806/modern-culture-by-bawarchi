@@ -3,11 +3,12 @@
 import { useEffect } from "react";
 import Topbar from "../components/Topbar";
 import HeroSection from "../components/HeroSection";
-import MenuSection from "../components/MenuSection";
+import AboutSection from "../components/AboutSection";
 import ShowcaseSection from "../components/ShowcaseSection";
-import ContactSection from "../components/ContactSection";
-import FounderSection from "../components/FounderSection";
 import FoodGallery from "../components/FoodGallery";
+import MenuSection from "../components/MenuSection";
+import ReserveSection from "../components/ReserveSection";
+import ContactSection from "../components/ContactSection";
 
 export default function Page() {
   useEffect(() => {
@@ -30,10 +31,11 @@ export default function Page() {
     <>
       <Topbar />
       <HeroSection />
-      <MenuSection />
       <ShowcaseSection />
-      <FounderSection />
       <FoodGallery />
+      <AboutSection />
+      <MenuSection />
+      <ReserveSection />
       <ContactSection />
     </>
   );

@@ -90,7 +90,7 @@ export default function MenuSection() {
 
   return (
     <>
-      <style>{`
+      <style dangerouslySetInnerHTML={{ __html: `
         .book-scene {
           perspective: 2500px;
           width: 100%;
@@ -229,7 +229,7 @@ export default function MenuSection() {
           right: auto; left: 0;
           background: linear-gradient(to right, rgba(0,0,0,0.18), transparent);
         }
-      `}</style>
+      `}} />
 
       <section className="menu-wrap" id="menu">
         <div className="menu-header-area fade-up">
