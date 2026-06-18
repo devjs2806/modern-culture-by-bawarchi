@@ -6,9 +6,9 @@ import Image from "next/image";
 const slides = [
   { image: "/exterior.jpg", num: "01 — Arrival", title: "The Facade", desc: "Where your evening begins" },
   { image: "/entrance.jpg", num: "02 — Welcome", title: "The Entrance", desc: "Step into a world apart" },
-  { image: "/lounge.jpg", num: "03 — Settle In", title: "The Lounge", desc: "Relax before the feast" },
-  { image: "/hall.jpg", num: "04 — Atmosphere", title: "The Hall", desc: "Cinematic ambience, intimate setting" },
-  { image: "/table.jpg", num: "05 — The Table", title: "Your Seat Awaits", desc: "Every detail, thoughtfully placed" },
+  { image: "/lounge.JPG", num: "03 — Settle In", title: "The Lounge", desc: "Relax before the feast" },
+  { image: "/hall.JPG", num: "04 — Atmosphere", title: "The Hall", desc: "Cinematic ambience, intimate setting" },
+  { image: "/table.JPG", num: "05 — The Table", title: "Your Seat Awaits", desc: "Every detail, thoughtfully placed" },
 ];
 
 export default function ShowcaseSection() {
